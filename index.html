@@ -5,6 +5,177 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
     <title>Document</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.home__header {
+    /* display: flex; */
+    /* align-items: center; */
+    background-color: #891a07;
+    height: 15vh;
+}
+
+.home__header__img {
+    margin-left: 6rem;
+}
+
+.home__header__content {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home__nav {
+    color: rgb(204, 204, 204);
+    float: right;
+    font-weight: 500;
+    margin: 2rem;
+    font-size: 1.4rem;
+    padding-right: 3rem;
+}
+
+.home__nav>ul>li {
+    display: inline-block;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.home__nav>ul>li:hover {
+    color: white;
+    transition-duration: 200ms;
+}
+
+
+
+.home__about {
+    height: 85vh;
+    background-color: white;
+    display: flex;
+}
+
+.about__div {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 5rem;
+    align-items: center;
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 5rem;
+}
+
+.about__text__heading {
+    color: #891a07;
+    font-size: 7rem;
+}
+
+.about__text__para {
+    width: 75%;
+    color: black;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+
+.home__news {
+    background-color: #891a07;
+}
+
+h1.news__heading {
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 4rem;
+    padding-top: 5rem;
+
+}
+
+
+.news__images1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    margin: 10rem;
+    margin-bottom: 2rem;
+}
+
+
+.news1__para {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+
+.btn_primary {
+    background-color: #891a07;
+    color: white;
+    border-color: white;
+    padding: 2rem 3rem 2rem 3rem;
+    font-weight: lighter;
+    margin: 2rem;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.btn_primary:hover {
+    background-color: white;
+    color: #891a07;
+    transition-delay: 100ms;
+    transition-duration: 200ms;
+}
+
+.award__heading {
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 4rem;
+    padding-top: 5rem;
+    font-weight: 500;
+    margin-top: 13rem;
+    margin-bottom: 5rem;
+}
+
+.award__img{
+    margin-bottom: 5rem;
+}
+
+footer{
+    padding: 1rem;
+}
+footer>p{
+   color: white; 
+   text-align: center;
+   font-size: 1.4rem;
+   font-weight: 100;
+   
+}
+    </style>
   </head>
   <body>
     <header class="home__header">
